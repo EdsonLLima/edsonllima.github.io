@@ -11,3 +11,22 @@
     font-size: 1em;
     font-family: 'Ubuntu', sans-serif;
 }
+
+.btn{
+    padding: 8px 20px;
+    font-weight: normal;
+    margin: 0 4px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    text-decoration: none;
+}
+.btn:hover{
+    cursor:pointer;
+}
+
+.btn_orange{
+    background-color: #D1683B;
+    color: #fff;
+    font-size: 0.9em;
+}

@@ -5,7 +5,7 @@
 
 .main_header{
     width: 100%;
-    background-color: #2D3241;
+    background-color: #004646;
 }
 
 .main_header .main_header_content{
@@ -48,4 +48,40 @@
 .main_header_menu a:hover{
     color: #fff;
     background-color:#D1683B; 
+}
+
+.main_cta{
+    width: 100%;
+    background-image: url('../_img/bg_main_home.png');
+    background-color: #2D3241;
+    background-repeat: no-repet;
+    background-position: center center;
+    background-size: cover;
+}
+
+.main_cta_content{
+    max-width: 1300px;
+    margin: 0 auto;
+    /* display: flex;*/
+}
+
+.main_cta_content h1{
+    font-size:2.2em;
+    color:#fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main_cta_content p{
+    font-size: 1.5em;
+    color:#fff;
+    font-weight: 300;
+    text-align: center;
+    margin:20px 0;
+}
+
+.main_cta_spacer{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 165px 40px;
 }
