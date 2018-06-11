@@ -18,6 +18,11 @@
     flex-basis: 330px;
     padding: 20px;
     width: 290px;
+
+}
+
+.main_header_content .logo img{
+  width:100px;
 }
 
 .main_header_content .main_header_menu{
@@ -66,7 +71,7 @@
 }
 
 .main_cta_content h1{
-    font-size:2.2em;
+    font-size:4em;
     color:#fff;
     font-weight: 700;
     text-align: center;
