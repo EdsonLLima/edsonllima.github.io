@@ -47,12 +47,13 @@
     display: flex;
     align-items: center;
     height: 100%;
-    color: #D1683B;
+    color: #fff;
 }
+/*#049B9B*/
 
 .main_header_menu a:hover{
-    color: #fff;
-    background-color:#D1683B; 
+    color: #eee;
+    background-color:#049B9B; 
 }
 
 .main_cta{
