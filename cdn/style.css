@@ -91,3 +91,7 @@
     max-width: 1300px;
     padding: 165px 40px;
 }
+
+.main_cta_spacer p a{
+    color: #fff;
+}
