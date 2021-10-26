@@ -1,13 +1,6 @@
-# edsonllima.github.io
+# OlÃ¡, eu sou Edson Lima
 
-Repositorio reservado para hospedagem de meu portfólio.
-
-Fiquem a vontade para baixar e estudar o meu código em HTML5 e CSS3.
-
-Template feito usando HTML5 e CSS, com o uso do bootstrap.
-
-#### Aviso de teste 
-
-#### Teste de Envio 2
-
-
+## Trabalho com:
+- Com sites em Wordpress
+- Com sites em HTML/CSS e JS
+- Com ReactJS
