@@ -1,0 +1,7 @@
+.sec-menu {
+  width: 100%;
+  display: flex;
+  margin: 3.2em 0;
+  justify-content: space-between;
+  align-items: center;
+}

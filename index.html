@@ -4,24 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/resete.css" />
+    <!-- header css -->
+    <link rel="stylesheet" href="assets/css/top.css" />
+    <link rel="stylesheet" href="assets/css/menu/sec-menu.css" />
+    <link rel="stylesheet" href="assets/css/menu/menu.css" />
+    <link rel="stylesheet" href="assets/css/menu/menu-list.css" />
+    <link rel="stylesheet" href="assets/css/menu/menu-item.css" />
+    <link rel="stylesheet" href="assets/css/menu/menu-link.css" />
+
     <title>Edson Lima - Portfólio</title>
   </head>
   <body>
     <header class="top">
-      <img src="" alt="logo-portfólio" />
-      <nav class="menu">
-        <ul>
-          <li><a href="">Edson Lima</a></li>
-          <li><a href="">Skills</a></li>
-          <li><a href="">Hobbies</a></li>
-          <li><a href="">Formação</a></li>
-          <li><a href="">Projetos</a></li>
-          <li><a href="">Currículo</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
+      <section class="sec-menu">
+        <a href="#hero" class="logo">
+          <img src="assets/img/edsonlima-logo.png" alt="logo-portfólio" />
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a class="menu_link" href="#about">Sobre</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu_link" href="#skills">Skills</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu_link" href="#hobbie">Hobbies</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu_link" href="#academic">Formação</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu_link" href="#projects">Projetos</a>
+            </li>
+            <li class="menu__item">
+              <a class="menu_link" href="#">contato@edsonlima.com</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!-- FIM MENU -->
       <section class="hero">
         <h1>Olá, meu nome é Fulana de Tal e construo páginas web</h1>
         <p>
@@ -37,8 +66,10 @@
           <li><a href="">Currículo</a></li>
         </ul>
       </section>
+    </header>
 
-      <section class="about">
+    <main>
+      <section id="about" class="about">
         <h2>Sobre mim</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
@@ -55,8 +86,8 @@
         </p>
         <img src="" alt="assinatura" />
       </section>
-      <section class="skills">
-        <article>
+      <section class="skills-hobbie">
+        <article id="skills">
           <h2>Skills</h2>
           <ul>
             <li>HTML</li>
@@ -67,7 +98,7 @@
             <li>CSS</li>
           </ul>
         </article>
-        <article>
+        <article id="hobbie">
           <h2>Hobbies</h2>
           <ul>
             <li>Andar de Skate</li>
@@ -79,7 +110,7 @@
           </ul>
         </article>
       </section>
-      <section class="academic-education">
+      <section id="academic" class="academic-education">
         <h2>Formação acadêmica</h2>
         <ul>
           <li>
@@ -99,7 +130,7 @@
           </li>
         </ul>
       </section>
-      <section class="area-experience">
+      <section id="projects" class="area-experience">
         <article>
           <h2>Skills</h2>
           <img src="" alt="" />
@@ -157,3 +188,4 @@
     </footer>
   </body>
 </html>
+h
