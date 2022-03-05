@@ -11,8 +11,7 @@ html {
 }
 
 body {
-  background: rgb(0, 0, 0) url("/src/img/skyrim-map-.jpg") no-repeat center
-    fixed;
+  background: #070707 url("/src/img/skyrim-map-.jpg") no-repeat center fixed;
   color: rgb(255, 255, 255);
 }
 
