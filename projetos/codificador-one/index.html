@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Codificador de Textos - Challenge ONE</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="titulo">Criptografe seu texto</h1>
+      </header>
+
+      <main class="main">
+        <section class="form box">
+          <form action="">
+            <h3 class="title-text">Apenas letras minúsculas, sem acento</h3>
+            <textarea
+              class="text-area"
+              name="text-area"
+              id="text-area"
+            ></textarea>
+            <input
+              class="btn"
+              type="submit"
+              value="criptografar!"
+              id="button-encrypt"
+            />
+            <input
+              class="btn"
+              type="submit"
+              value="descriptografar!"
+              id="button-decrypt"
+            />
+          </form>
+        </section>
+
+        <section class="msg box">
+          <h3 class="title-text">Mensagem criptografada:</h3>
+          <!-- <input class="text-input" type="text" id="msg"></input> -->
+          <textarea
+            class="text-area msg"
+            name="text-area"
+            id="msg"
+            disabled
+          ></textarea>
+          <input class="btn" type="submit" value="Copiar" id="button-copy" />
+          <input class="btn" type="submit" value="Limpar" id="button-clear" />
+        </section>
+      </main>
+
+      <script src="/src/js/codificador.js"></script>
+      <script src="/src/js/decodificador.js"></script>
+      <script src="/src/js/copyText.js"></script>
+    </div>
+  </body>
+</html>
