@@ -1,0 +1,8 @@
+.hero__text {
+  font-size: 2.2rem;
+  font-weight: 400;
+  text-align: left;
+  color: var(--font-gray2);
+  line-height: 1.2em;
+  padding: 1em 0;
+}

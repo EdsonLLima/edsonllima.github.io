@@ -1,0 +1,7 @@
+.hero__title {
+  text-align: left;
+  font-size: 5.2rem;
+  font-weight: bold;
+  color: var(--font-gray2);
+  line-height: 1.2em;
+}

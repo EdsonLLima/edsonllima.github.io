@@ -2,6 +2,11 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+:root {
+  /* variaveis das cores de texto */
+  --font-gray2: #4f4f4f;
+  --font-gray1: #838383;
+}
 
 html {
   font-size: 62.5%; /**10px**/

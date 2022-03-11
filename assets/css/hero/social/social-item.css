@@ -1,0 +1,26 @@
+.social__item {
+  display: flex;
+  align-items: center;
+  padding: 0.8em;
+  background: rgba(104, 170, 162);
+  border: none;
+  border-radius: 0.5em;
+  margin-right: 0.5em;
+  cursor: pointer;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+/* Faz o efeito de hover de aumentar o botão ao passa o mouse */
+.social__item:hover {
+  transition: all 0.2s;
+  transform: scale(1.02);
+  background: rgba(104, 170, 162);
+}
+
+/* Coloca a imagem da seta dentro do item do menu social */
+.social__item .social__arrow::after {
+  content: url(/assets/img/arrow_back2.svg);
+}

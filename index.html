@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/resete.css" />
     <!-- header css -->
@@ -18,6 +20,15 @@
     <link rel="stylesheet" href="assets/css/menu/menu-list.css" />
     <link rel="stylesheet" href="assets/css/menu/menu-item.css" />
     <link rel="stylesheet" href="assets/css/menu/menu-link.css" />
+
+    <link rel="stylesheet" href="assets/css/hero/hero.css" />
+    <link rel="stylesheet" href="assets/css/hero/hero-text.css" />
+    <link rel="stylesheet" href="assets/css/hero/hero-title.css" />
+    <link rel="stylesheet" href="assets/css/hero/social.css" />
+    <link rel="stylesheet" href="assets/css/hero/social/social-item.css" />
+    <link rel="stylesheet" href="assets/css/hero/social/social-link.css" />
+    <link rel="stylesheet" href="assets/css/hero/hero-img.css" />
+    <link rel="stylesheet" href="assets/css/hero/hero-link.css" />
 
     <title>Edson Lima - Portfólio</title>
   </head>
@@ -30,41 +41,78 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a class="menu_link" href="#about">Sobre</a>
+              <a class="menu__link" href="#about">Sobre mim</a>
             </li>
             <li class="menu__item">
-              <a class="menu_link" href="#skills">Skills</a>
+              <a class="menu__link" href="#skills">Skills</a>
             </li>
             <li class="menu__item">
-              <a class="menu_link" href="#hobbie">Hobbies</a>
+              <a class="menu__link" href="#hobbie">Hobbies</a>
             </li>
             <li class="menu__item">
-              <a class="menu_link" href="#academic">Formação</a>
+              <a class="menu__link" href="#academic">Formação</a>
             </li>
             <li class="menu__item">
-              <a class="menu_link" href="#projects">Projetos</a>
+              <a class="menu__link" href="#projects">Projetos</a>
             </li>
             <li class="menu__item">
-              <a class="menu_link" href="#">contato@edsonlima.com</a>
+              <a class="menu__link" href="#">Contato</a>
             </li>
           </ul>
         </nav>
       </section>
       <!-- FIM MENU -->
-      <section class="hero">
-        <h1>Olá, meu nome é Fulana de Tal e construo páginas web</h1>
-        <p>
-          Eu sou formada em lorem ipsum sit amet consectetur e atualmente estou
-          participando no projeto Oracle ONE na Alura.
-        </p>
+      <section class="hero" id="hero">
+        <div class="hero__letf">
+          <h1 class="hero__title">
+            Olá, meu nome é Edson Lima e desenvolvo aplicativos.
+          </h1>
+          <p class="hero__text">
+            Fiz vários curso com foco em informatica e atualmente estou
+            participando no projeto ONE - Oracle Next Education na Alura
+          </p>
 
-        <ul class="social">
-          <li><a href="">GitHub</a></li>
-          <li><a href="">LinkedIn</a></li>
-          <li><a href="">Instagram</a></li>
-          <li><a href=""></a>Twitter</li>
-          <li><a href="">Currículo</a></li>
-        </ul>
+          <ul class="social">
+            <li class="social__item">
+              <a class="social__link" href="https://github.com/EdsonLLima">
+                GitHub
+              </a>
+              <span class="social__arrow"> </span>
+            </li>
+            <li class="social__item">
+              <a
+                class="social__link"
+                href="https://www.linkedin.com/in/edsonllima/"
+              >
+                LinkedIn
+              </a>
+              <span class="social__arrow"> </span>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="https://twitter.com/EdLima2016">
+                Twitter
+              </a>
+              <span class="social__arrow"> </span>
+            </li>
+            <li class="social__item">
+              <a
+                class="social__link"
+                href="/edson_lima_curriculo.pdf"
+                target="_blank"
+              >
+                Currículo
+              </a>
+              <span class="social__arrow"> </span>
+            </li>
+          </ul>
+        </div>
+        <div class="hero__right">
+          <img
+            class="hero__img"
+            src="assets/img/edsonlima-hero.png"
+            alt="foto edson lima"
+          />
+        </div>
       </section>
     </header>
 
@@ -183,9 +231,8 @@
       </section>
     </main>
     <footer class="footer">
-      <h4>Desenvolvido por Fulano de tal</h4>
-      <p>2021</p>
+      <h4>Desenvolvido por <a>Edson Lima</a></h4>
+      <p><span id="currentDate">2021</span></p>
     </footer>
   </body>
 </html>
-h
