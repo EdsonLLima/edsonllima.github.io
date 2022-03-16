@@ -1,5 +1,9 @@
 .top {
-  height: 100vh;
-  margin-bottom: 3.2em;
+  width: 100%;
+  display: flex;
+}
+
+.top__content {
   margin: 0 15.2em;
+  padding: 2em 0;
 }

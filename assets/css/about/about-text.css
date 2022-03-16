@@ -1,0 +1,9 @@
+.about__text {
+  width: 70%;
+  color: #333333;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5em;
+  text-align: left;
+  padding: 0.8em 0;
+}
