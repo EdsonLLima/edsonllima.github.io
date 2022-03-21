@@ -1,0 +1,8 @@
+/*prepara o article deixando 100% da tela*/
+.hobbie__list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}

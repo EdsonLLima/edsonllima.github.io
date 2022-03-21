@@ -1,0 +1,25 @@
+.skills__item {
+  /* propriedade shorthand para ajustar quantidade de elementos em linha */
+  flex: 1 1 12%;
+}
+
+.skills__item-card {
+  background: #ffffff;
+  margin: 0.5em;
+  padding: 1em;
+  width: 10vw;
+  text-align: center;
+  border: none;
+  border-radius: 4%;
+}
+
+.skills__item-img {
+  width: 25%;
+  margin-bottom: 0.5em;
+}
+
+.skills__item-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}

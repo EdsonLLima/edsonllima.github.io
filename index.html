@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="assets/css/normalize.css" />
     <link rel="stylesheet" href="assets/css/resete.css" />
     <!-- header css -->
@@ -30,15 +31,31 @@
     <link rel="stylesheet" href="assets/css/hero/hero-img.css" />
     <link rel="stylesheet" href="assets/css/hero/hero-link.css" />
     <!-- section about -->
-    <link rel="stylesheet" href="assets/css/about/about.css" />
+    <link rel="stylesheet" href="assets/css/about.css" />
     <link rel="stylesheet" href="assets/css/about/about-text.css" />
     <link rel="stylesheet" href="assets/css/about/about-title.css" />
+    <!--section skills and hobbies-->
+    <link rel="stylesheet" href="assets/css/skills-hobbie.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/skills-hobbie/skills-hobbie-progress.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/skills-hobbie/skills-hobbie-title.css"
+    />
+    <link rel="stylesheet" href="assets/css/skills-hobbie/skills.css" />
+    <link rel="stylesheet" href="assets/css/skills-hobbie/skills-list.css" />
+    <link rel="stylesheet" href="assets/css/skills-hobbie/skills-item.css" />
+    <link rel="stylesheet" href="assets/css/skills-hobbie/hobbie.css" />
+    <link rel="stylesheet" href="assets/css/skills-hobbie/hobbie-list.css" />
+    <link rel="stylesheet" href="assets/css/skills-hobbie/hobbie-item.css" />
 
     <title>Edson Lima - Portfólio</title>
   </head>
   <body>
     <header class="top">
-      <div class="top__content">
+      <div class="top-content">
         <section class="sec-menu">
           <a href="#hero" class="logo">
             <img src="assets/img/edsonlima-logo.png" alt="logo-portfólio" />
@@ -124,7 +141,7 @@
 
     <main>
       <section id="about" class="about">
-        <div class="about__content">
+        <div class="about-content">
           <h2 class="about__title">Sobre mim</h2>
           <p class="about__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -143,28 +160,200 @@
         </div>
       </section>
       <section class="skills-hobbie">
-        <article id="skills">
-          <h2>Skills</h2>
-          <ul>
-            <li>HTML</li>
-            <li>JavaScript</li>
-            <li>PHP</li>
-            <li>NodeJS</li>
-            <li>React Native</li>
-            <li>CSS</li>
-          </ul>
-        </article>
-        <article id="hobbie">
-          <h2>Hobbies</h2>
-          <ul>
-            <li>Andar de Skate</li>
-            <li>Tocar violão</li>
-            <li>Ouvir música</li>
-            <li>Assistir série</li>
-            <li>Cozinhar</li>
-            <li>Tirar fotos</li>
-          </ul>
-        </article>
+        <div class="skills-hobbie-content">
+          <article id="skills" class="skills">
+            <h2 class="skills-hobbie__title">Skills</h2>
+            <ul class="skills__list">
+              <li class="skills__item skills__item-card">
+                <img
+                  class="skills__item-img"
+                  src="assets/img/skills/nodejs.png"
+                  alt="logo NodeJS"
+                />
+                <h3 class="skills__item-title">NodeJS</h3>
+                <progress
+                  id="node-bar"
+                  class="skills-hobbie__progress"
+                  value="10"
+                  max="100"
+                >
+                  10%
+                </progress>
+              </li>
+              <li class="skills__item skills__item-card">
+                <img
+                  class="skills__item-img"
+                  src="assets/img/skills/react native.png"
+                  alt="logo react native"
+                />
+                <h3 class="skills__item-title">React Native</h3>
+                <progress
+                  id="react-native-bar"
+                  class="skills-hobbie__progress"
+                  value="10"
+                  max="100"
+                >
+                  10%
+                </progress>
+              </li>
+              <li class="skills__item skills__item-card">
+                <img
+                  class="skills__item-img"
+                  src="assets/img/skills/reactjs.png"
+                  alt="logo reactjs"
+                />
+                <h3 class="skills__item-title">ReactJs</h3>
+                <progress
+                  id="reactjs-bar"
+                  class="skills-hobbie__progress"
+                  value="20"
+                  max="100"
+                >
+                  20%
+                </progress>
+              </li>
+              <li class="skills__item skills__item-card">
+                <img
+                  class="skills__item-img"
+                  src="assets/img/skills/git.png"
+                  alt="logo git"
+                />
+                <h3 class="skills__item-title">Git</h3>
+                <progress
+                  id="git-bar"
+                  class="skills-hobbie__progress"
+                  value="60"
+                  max="100"
+                >
+                  60%
+                </progress>
+              </li>
+              <li class="skills__item skills__item-card">
+                <img
+                  class="skills__item-img"
+                  src="assets/img/skills/wordpress.png"
+                  alt="logo wordpress"
+                />
+                <h3 class="skills__item-title">Wordpress</h3>
+                <progress
+                  id="wordpress-bar"
+                  class="skills-hobbie__progress"
+                  value="85"
+                  max="100"
+                >
+                  85%
+                </progress>
+              </li>
+              <li class="skills__item skills__item-card">
+                <img
+                  class="skills__item-img"
+                  src="assets/img/skills/comunicacao.png"
+                  alt="logo de dois balões com um tem três ponto para representar uma convesa, no caso comunicação!"
+                />
+                <h3 class="skills__item-title">Comunicação</h3>
+                <progress
+                  id="comunicacao-bar"
+                  class="skills-hobbie__progress"
+                  value="60"
+                  max="100"
+                >
+                  60%
+                </progress>
+              </li>
+              <li class="skills__item skills__item-card">
+                <img
+                  class="skills__item-img"
+                  src="assets/img/skills/css.png"
+                  alt="logo css"
+                />
+                <h3 class="skills__item-title">CSS</h3>
+                <progress
+                  id="css-bar"
+                  class="skills-hobbie__progress"
+                  value="50"
+                  max="100"
+                >
+                  50%
+                </progress>
+              </li>
+              <li class="skills__item skills__item-card">
+                <img
+                  class="skills__item-img"
+                  src="assets/img/skills/bootstrap.png"
+                  alt="logo bootstrap"
+                />
+                <h3 class="skills__item-title">Bootstrap</h3>
+                <progress
+                  id="bootstrap-bar"
+                  class="skills-hobbie__progress"
+                  value="50"
+                  max="100"
+                >
+                  50%
+                </progress>
+              </li>
+              <li class="skills__item skills__item-card">
+                <img
+                  class="skills__item-img"
+                  src="assets/img/skills/html.png"
+                  alt="logo html"
+                />
+                <h3 class="skills__item-title">HTML</h3>
+                <progress
+                  id="html-bar"
+                  class="skills-hobbie__progress"
+                  value="80"
+                  max="100"
+                >
+                  85%
+                </progress>
+              </li>
+              <li class="skills__item skills__item-card">
+                <img
+                  class="skills__item-img"
+                  src="assets/img/skills/javascript.png"
+                  alt="logo javascript"
+                />
+                <h3 class="skills__item-title">JavaScript</h3>
+                <progress
+                  id="js-bar"
+                  class="skills-hobbie__progress"
+                  value="40"
+                  max="100"
+                >
+                  40%
+                </progress>
+              </li>
+            </ul>
+          </article>
+
+          <article id="hobbie" class="hobbies">
+            <h2 class="skills-hobbie__title">Hobbies</h2>
+            <ul class="hobbie__list">
+              <li class="hobbie__item hobbie__item-card">
+                <img
+                  class="hobbie__item-img"
+                  src="assets/img/skills/otaku.png"
+                />
+                <h3 class="hobbie__item-title">Anime</h3>
+              </li>
+              <li class="hobbie__item hobbie__item-card">
+                <img
+                  class="hobbie__item-img"
+                  src="assets/img/skills/book.png"
+                />
+                <h3 class="hobbie__item-title">Livros e Manga</h3>
+              </li>
+              <li class="hobbie__item hobbie__item-card">
+                <img
+                  class="hobbie__item-img"
+                  src="assets/img/skills/play-button.png"
+                />
+                <h3 class="hobbie__item-title">Filmes e Séries</h3>
+              </li>
+            </ul>
+          </article>
+        </div>
       </section>
       <section id="academic" class="academic-education">
         <h2>Formação acadêmica</h2>
@@ -243,4 +432,9 @@
       <p><span id="currentDate">2021</span></p>
     </footer>
   </body>
+
+  <!-- 
+    o "id.value" do onchange representar o id da tag progress nesse exemplo
+    <input type="range" min="0" max="100" value="0" onchange="id.value=this.value">
+  -->
 </html>
