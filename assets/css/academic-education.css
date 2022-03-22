@@ -1,0 +1,12 @@
+.academic-education {
+  width: 100%;
+  display: flex;
+  background: #68aaa2;
+  background-size: cover;
+}
+
+.academic-education__content {
+  margin: 0 15.2em;
+  padding: 6.4em 0;
+  background-color: blueh;
+}

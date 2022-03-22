@@ -50,6 +50,32 @@
     <link rel="stylesheet" href="assets/css/skills-hobbie/hobbie.css" />
     <link rel="stylesheet" href="assets/css/skills-hobbie/hobbie-list.css" />
     <link rel="stylesheet" href="assets/css/skills-hobbie/hobbie-item.css" />
+    <!-- section academic education -->
+    <link rel="stylesheet" href="assets/css/academic-education.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/academic-formation/academic-education-title.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/academic-formation/formation-item-img.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/academic-formation/formation-item-text.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/academic-formation/formation-item-title.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/academic-formation/formation-item.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/academic-formation/formation-list.css"
+    />
 
     <title>Edson Lima - Portfólio</title>
   </head>
@@ -78,7 +104,7 @@
                 <a class="menu__link" href="#projects">Projetos</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">Contato</a>
+                <a class="menu__link" href="#contact">Contato</a>
               </li>
             </ul>
           </nav>
@@ -356,24 +382,37 @@
         </div>
       </section>
       <section id="academic" class="academic-education">
-        <h2>Formação acadêmica</h2>
-        <ul>
-          <li>
-            <img />
-            <h4>Análise de dados</h4>
-            <p>2018 - UFRP</p>
-          </li>
-          <li>
-            <img />
-            <h4>Análise de dados</h4>
-            <p>2018 - UFRP</p>
-          </li>
-          <li>
-            <img />
-            <h4>Análise de dados</h4>
-            <p>2018 - UFRP</p>
-          </li>
-        </ul>
+        <div class="academic-education__content">
+          <h2 class="academic-education__title">Formação acadêmica</h2>
+          <ul class="formation__list">
+            <li class="formation__item formation__item-card">
+              <img
+                class="formation__item__img"
+                src="assets/img/formation/eduzz_bootcamp.png"
+              />
+              <h3 class="formation__item__title">Eduzz Fullstack Developer</h3>
+              <p class="formation__item__text">2021 - DIO</p>
+            </li>
+            <li class="formation__item formation__item-card">
+              <img
+                class="formation__item__img"
+                src="assets/img/formation/formacao-bussiness-agility-one.png"
+              />
+              <h3 class="formation__item__title">Business Agilility - One</h3>
+              <p class="formation__item__text">2021 - Oracle + alura</p>
+            </li>
+            <li class="formation__item formation__item-card">
+              <img
+                class="formation__item__img"
+                src="assets/img/formation/formacao-iniciante-em-programacao-one.png"
+              />
+              <h3 class="formation__item__title">
+                Iniciante em programação - One
+              </h3>
+              <p class="formation__item__text">2022 - Oracle + alura</p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section id="projects" class="area-experience">
         <article>
@@ -409,7 +448,7 @@
           <button>Ver Demo</button>
         </article>
       </section>
-      <section class="contact">
+      <section id="contact" class="contact">
         <h2>Contato</h2>
         <p>
           Quer entrar em contato comigo? Preencha o formulário ao lado e
