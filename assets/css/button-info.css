@@ -1,0 +1,11 @@
+.btn__info {
+  background: rgba(104, 170, 162, 0);
+  border: 1px solid #055e52;
+  color: #055e52;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.btn__info:hover {
+  color: #268d7f;
+}

@@ -76,6 +76,26 @@
       rel="stylesheet"
       href="assets/css/academic-formation/formation-list.css"
     />
+    <!-- section my projects -->
+    <link rel="stylesheet" href="assets/css/my-projects.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/my-projects/my-projects-title.css"
+    />
+    <link rel="stylesheet" href="assets/css/my-projects/project-list.css" />
+    <link rel="stylesheet" href="assets/css/my-projects/project-item.css" />
+    <link rel="stylesheet" href="assets/css/my-projects/project-item-img.css" />
+    <link
+      rel="stylesheet"
+      href="assets/css/my-projects/project-item-title.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/css/my-projects/project-item-text.css"
+    />
+    <link rel="stylesheet" href="assets/css/button.css" />
+    <link rel="stylesheet" href="assets/css/button-info.css" />
+    <link rel="stylesheet" href="assets/css/button-success.css" />
 
     <title>Edson Lima - Portfólio</title>
   </head>
@@ -113,11 +133,12 @@
         <section class="hero" id="hero">
           <div class="hero__letf">
             <h1 class="hero__title">
-              Olá, meu nome é Edson Lima e desenvolvo aplicativos.
+              Olá, meu nome é Edson Lima e desenvolvo páginas web.
             </h1>
             <p class="hero__text">
-              Fiz vários curso com foco em informatica e atualmente estou
-              participando no projeto ONE - Oracle Next Education na Alura
+              Eu já trabalho na área de infórmatica a mais de 10 anos com
+              suporte e atualmente estou participando no projeto Oracle ONE na
+              Alura.
             </p>
 
             <ul class="social">
@@ -414,39 +435,63 @@
           </ul>
         </div>
       </section>
-      <section id="projects" class="area-experience">
-        <article>
-          <h2>Skills</h2>
-          <img src="" alt="" />
-          <h4>Decodificador de texto</h4>
-          <p>Challenge Alura Codificador</p>
-          <button>Repósitorio</button>
-          <button>Ver Demo</button>
-        </article>
-        <article>
-          <h2>Skills</h2>
-          <img src="" alt="" />
-          <h4>Decodificador de texto</h4>
-          <p>Challenge Alura Codificador</p>
-          <button>Repósitorio</button>
-          <button>Ver Demo</button>
-        </article>
-        <article>
-          <h2>Skills</h2>
-          <img src="" alt="" />
-          <h4>Decodificador de texto</h4>
-          <p>Challenge Alura Codificador</p>
-          <button>Repósitorio</button>
-          <button>Ver Demo</button>
-        </article>
-        <article>
-          <h2>Skills</h2>
-          <img src="" alt="" />
-          <h4>Decodificador de texto</h4>
-          <p>Challenge Alura Codificador</p>
-          <button>Repósitorio</button>
-          <button>Ver Demo</button>
-        </article>
+      <section id="projects" class="my-projects">
+        <div class="my-projects__contet">
+          <h2 class="my-projects__title">Meus projetos</h2>
+          <ul class="project__list">
+            <li class="project__item project__item-card">
+              <img
+                class="project__item__img"
+                src="assets/img/projects/edsonllima-projeto-codificador.png"
+                alt="imagem exibindo os campos de tecto do projeto codificador"
+              />
+              <div class="project__item-contet">
+                <h4 class="project__item__title">
+                  Decodificador de texto - JavaScript
+                </h4>
+                <p class="project__item__text">Challenge Oracle One + Alura</p>
+                <a
+                  class="btn btn__info"
+                  href="https://github.com/EdsonLLima/ChallengeOneCodificador"
+                  target="__blank"
+                  >Repositório</a
+                >
+                <a
+                  class="btn btn__success"
+                  href="https://edsonllima.github.io/projetos/codificador-one/"
+                  target="__blank"
+                  >Ver Demo</a
+                >
+              </div>
+            </li>
+
+            <li class="project__item project__item-card">
+              <img
+                class="project__item__img"
+                src="assets/img/projects/edsonllima-projeto-interface-github.png"
+                alt="Imagem dos repositórios do github junto ao usuário pesquisando, demosntrando o uso do projeto"
+              />
+              <div class="project__item-contet">
+                <h4 class="project__item__title">
+                  Projeto interface GitHub - ReacJS
+                </h4>
+                <p class="project__item__text">DIO: Bootcamp Eduzz</p>
+                <a
+                  class="btn btn__info"
+                  href="https://github.com/EdsonLLima/interface-github"
+                  target="__blank"
+                  >Repositório</a
+                >
+                <a
+                  class="btn btn__success"
+                  href="assets/video/interface-github.webm"
+                  target="__blank"
+                  >Ver Demo</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
       <section id="contact" class="contact">
         <h2>Contato</h2>
@@ -471,9 +516,4 @@
       <p><span id="currentDate">2021</span></p>
     </footer>
   </body>
-
-  <!-- 
-    o "id.value" do onchange representar o id da tag progress nesse exemplo
-    <input type="range" min="0" max="100" value="0" onchange="id.value=this.value">
-  -->
 </html>

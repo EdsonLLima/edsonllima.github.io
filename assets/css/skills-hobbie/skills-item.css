@@ -1,6 +1,6 @@
 .skills__item {
   /* propriedade shorthand para ajustar quantidade de elementos em linha */
-  flex: 1 1 12%;
+  flex: 1 1 16%;
 }
 
 .skills__item-card {

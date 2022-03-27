@@ -1,0 +1,10 @@
+.project__item__img {
+  width: 70%;
+  border-radius: 2%;
+}
+
+@media (max-width: 720px) {
+  .project__item__img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,10 @@
+.my-projects {
+  width: 100%;
+  display: flex;
+  background-size: cover;
+}
+
+.my-projects__contet {
+  margin: 0 15.2em;
+  padding: 6.4em 0;
+}

@@ -1,0 +1,25 @@
+.project__item {
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project__item-card {
+  background: rgba(104, 170, 162, 0.1);
+  padding: 5em 2em;
+  text-align: center;
+  border: none;
+  border-radius: 1%;
+}
+
+.project__item-contet {
+  padding: 0.8em;
+  word-wrap: break-word;
+}
+
+@media (max-width: 1140px) {
+  .project__item {
+    display: block;
+  }
+}
