@@ -96,6 +96,11 @@
     <link rel="stylesheet" href="assets/css/button.css" />
     <link rel="stylesheet" href="assets/css/button-info.css" />
     <link rel="stylesheet" href="assets/css/button-success.css" />
+    <!-- footer -->
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/footer/footer-title.css" />
+    <link rel="stylesheet" href="assets/css/footer/footer-link.css" />
+    <link rel="stylesheet" href="assets/css/footer/footer-text.css" />
 
     <title>Edson Lima - Portfólio</title>
   </head>
@@ -132,13 +137,11 @@
         <!-- FIM MENU -->
         <section class="hero" id="hero">
           <div class="hero__letf">
-            <h1 class="hero__title">
-              Olá, meu nome é Edson Lima e desenvolvo páginas web.
-            </h1>
+            <h1 class="hero__title">Olá, sou Edson Lima, desenvolvedor web.</h1>
             <p class="hero__text">
-              Eu já trabalho na área de infórmatica a mais de 10 anos com
-              suporte e atualmente estou participando no projeto Oracle ONE na
-              Alura.
+              Estou focado nos estudos com em HTML, CSS e Java Script para
+              construir uma base solida para entrar no mercado de trabalho e
+              atualmente estou participando no projeto Oracle ONE na Alura.
             </p>
 
             <ul class="social">
@@ -191,18 +194,26 @@
         <div class="about-content">
           <h2 class="about__title">Sobre mim</h2>
           <p class="about__text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque velit velit, volutpat semper dignissim dictum,
-            imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
-            potenti.Ut semper sagittis ligula et lacinia. Lorem ipsum dolor sit
-            amet, consectetur adipiscing elit.
+            Já trabalhei na área de TI com manutenção de computadores e
+            helpdesk. Trabalhei também dando aulas de informática, ensinando: o
+            básico como pacote Office, manutenção de computadores, criação de
+            redes e configuração de servidores Linux e Windows Server.
           </p>
           <p class="about__text">
-            Pellentesque velit velit, volutpat semper dignissim dictum,
-            imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse
-            potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis
-            venenatis, egestas metus vitae, aliquet metus.
+            Dar aulas é algo que acredito que todos deveriam fazer em algum
+            momento de sua vida, pois é incrível ver alguém crescer em
+            conhecimento e perceber que você foi responsável por uma parte
+            daquilo e nós quando educadores crescemos muito como pessoa e
+            profissional.
           </p>
+          <p class="about__text">
+            Atualmente trabalho para uma empresa no desenvolvimento de sites
+            usando o Wordpress e faço a gestão e manutenção dos recursos do
+            servidor usado pela empresa. Estou muito focado nos estudos com em
+            HTML, CSS e Java Script para construir uma base solida para entrar
+            no mercado de desenvolvimento web.
+          </p>
+
           <img src="assets/img/signature.png" alt="imagem de assinatura" />
         </div>
       </section>
@@ -380,9 +391,9 @@
               <li class="hobbie__item hobbie__item-card">
                 <img
                   class="hobbie__item-img"
-                  src="assets/img/skills/otaku.png"
+                  src="assets/img/skills/music.png"
                 />
-                <h3 class="hobbie__item-title">Anime</h3>
+                <h3 class="hobbie__item-title">Música</h3>
               </li>
               <li class="hobbie__item hobbie__item-card">
                 <img
@@ -394,7 +405,7 @@
               <li class="hobbie__item hobbie__item-card">
                 <img
                   class="hobbie__item-img"
-                  src="assets/img/skills/play-button.png"
+                  src="assets/img/skills/series.png"
                 />
                 <h3 class="hobbie__item-title">Filmes e Séries</h3>
               </li>
@@ -450,6 +461,10 @@
                   Decodificador de texto - JavaScript
                 </h4>
                 <p class="project__item__text">Challenge Oracle One + Alura</p>
+                <p class="project__item__text">
+                  Usado HTML, CSS3 e JavaScript para encriptografa textos e
+                  descriptografar.
+                </p>
                 <a
                   class="btn btn__info"
                   href="https://github.com/EdsonLLima/ChallengeOneCodificador"
@@ -476,6 +491,10 @@
                   Projeto interface GitHub - ReacJS
                 </h4>
                 <p class="project__item__text">DIO: Bootcamp Eduzz</p>
+                <p class="project__item__text">
+                  Projeto de buscas de usários do GitHub usando ReacJS com AXIOS
+                  para consumir a API do GitHub.
+                </p>
                 <a
                   class="btn btn__info"
                   href="https://github.com/EdsonLLima/interface-github"
@@ -512,8 +531,18 @@
       </section>
     </main>
     <footer class="footer">
-      <h4>Desenvolvido por <a>Edson Lima</a></h4>
-      <p><span id="currentDate">2021</span></p>
+      <div class="footer-content">
+        <h4 class="footer__title">
+          Desenvolvido por
+          <a
+            class="footer__link scale"
+            href="https://www.linkedin.com/in/edsonllima/"
+            target="__blank"
+            >Edson Lima</a
+          >
+        </h4>
+        <p class="footer__text">Projeto ONE Oracle + Alura - 2021/2022</p>
+      </div>
     </footer>
   </body>
 </html>

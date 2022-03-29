@@ -8,9 +8,11 @@
 .project__item-card {
   background: rgba(104, 170, 162, 0.1);
   padding: 5em 2em;
+  margin-bottom: 4em;
   text-align: center;
   border: none;
   border-radius: 1%;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
 .project__item-contet {

@@ -1,0 +1,8 @@
+.footer__link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: rgb(233, 233, 233);
+}
