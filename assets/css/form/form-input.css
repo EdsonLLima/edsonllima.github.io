@@ -1,0 +1,17 @@
+.form__input {
+  width: 95%;
+  color: #464646;
+  background: #ffffff;
+  font-size: 1.6em;
+
+  border: none;
+  border-radius: 0.4em;
+
+  margin-bottom: 2em;
+  padding: 0.8em;
+}
+
+/* .form__input-subject {
+  border-radius: 0.4em;
+  padding: 1.6em;
+} */

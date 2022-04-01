@@ -13,3 +13,10 @@
   border-radius: 4%;
   box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width:560px) {
+  .formation__item{
+    width: 95%;
+    margin-bottom: 1em;
+  }
+}

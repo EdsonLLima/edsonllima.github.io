@@ -1,0 +1,30 @@
+.contact__text {
+  text-align: left;
+  font-size: 1.6rem;
+  line-height: 1.2em;
+  font-weight: 400;
+  margin: 1em 0;
+  padding: 0.4em 0;
+}
+
+.contact__text-mobile{
+  display: none;
+}
+
+@media (max-width:768px) {
+  .contact__text {
+    display: none;
+  }
+
+  .contact__text-mobile {
+    display: flex;
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 1.2em;
+    font-weight: 400;
+    margin: 1em 0;
+    padding: 0.4em 0;
+  }
+  
+}
+

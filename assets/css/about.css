@@ -10,3 +10,9 @@
   margin: 0 15.2em;
   padding: 6.4em 0;
 }
+
+@media (max-width: 768px) {
+  .about-content {
+    margin: 0 2em;
+  }
+}

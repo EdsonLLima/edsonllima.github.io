@@ -7,3 +7,9 @@
   margin: 0 15.2em;
   padding: 2em 0;
 }
+
+@media (max-width: 768px) {
+  .top-content {
+    margin: 0 2em;
+  }
+}

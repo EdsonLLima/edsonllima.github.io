@@ -10,3 +10,9 @@
   padding: 6.4em 0;
   background-color: blueh;
 }
+
+@media (max-width: 768px) {
+  .academic-education__content {
+    margin: 0 2em;
+  }
+}

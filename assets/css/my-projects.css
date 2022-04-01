@@ -4,7 +4,13 @@
   background-size: cover;
 }
 
-.my-projects__contet {
+.my-projects__content {
   margin: 0 15.2em;
   padding: 6.4em 0;
+}
+
+@media (max-width: 768px) {
+  .my-projects__content {
+    margin: 0 2em;
+  }
 }

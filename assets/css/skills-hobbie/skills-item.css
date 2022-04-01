@@ -24,3 +24,9 @@
   font-weight: 700;
   margin-bottom: 0.2em;
 }
+
+@media (max-width:560px) {
+  .skills__item {
+    /* propriedade shorthand para ajustar quantidade de elementos em linha */
+    flex: 1 1 30%;  }
+}

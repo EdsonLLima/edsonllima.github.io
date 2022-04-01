@@ -1,0 +1,14 @@
+.form__button {
+  font-size: 1.6rem;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 1.6em;
+  border-radius: 0.4em;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  transition: 0.2s;
+  transform: scale(1.02);
+  background: #055e52;
+}

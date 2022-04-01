@@ -1,27 +1,41 @@
 .social__item {
   display: flex;
   align-items: center;
-  padding: 0.8em;
+  padding: 0.8em 2em;
   background: rgba(104, 170, 162);
   border: none;
   border-radius: 0.5em;
-  margin-right: 0.5em;
+  margin-right: 1em;
   cursor: pointer;
   box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.2);
-}
-
-.social__item:last-child {
-  margin-right: 0;
 }
 
 /* Faz o efeito de hover de aumentar o botão ao passa o mouse */
 .social__item:hover {
   transition: all 0.2s;
-  transform: scale(1.02);
+  transform: scale(1.1);
   background: rgba(104, 170, 162);
 }
 
 /* Coloca a imagem da seta dentro do item do menu social */
 .social__item .social__arrow::after {
-  content: url(/assets/img/arrow_back2.svg);
+  content: url(/assets/img/arrow_back_white.png);
+}
+
+@media (max-width: 560px) {
+  .social__item {
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 0.8em;
+    padding: 0.4em;
+  }
+}
+
+@media (max-width: 360px) {
+  .social__item {
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 0.8em;
+    padding: 0.4em;
+  }
 }

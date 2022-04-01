@@ -94,13 +94,26 @@
       href="assets/css/my-projects/project-item-text.css"
     />
     <link rel="stylesheet" href="assets/css/button.css" />
+    <link rel="stylesheet" href="assets/css/button-padding.css" />
     <link rel="stylesheet" href="assets/css/button-info.css" />
     <link rel="stylesheet" href="assets/css/button-success.css" />
+    <link rel="stylesheet" href="assets/css/alert-msg.css" />
     <!-- footer -->
     <link rel="stylesheet" href="assets/css/footer.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-title.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-link.css" />
     <link rel="stylesheet" href="assets/css/footer/footer-text.css" />
+    <!-- section contact -->
+    <link rel="stylesheet" href="assets/css/contact.css" />
+    <link rel="stylesheet" href="assets/css/form/contact-form.css" />
+    <link rel="stylesheet" href="assets/css/form/contact-image.css" />
+    <link rel="stylesheet" href="assets/css/form/contact-title.css" />
+    <link rel="stylesheet" href="assets/css/form/contact-text.css" />
+    <link rel="stylesheet" href="assets/css/form/form.css" />
+    <link rel="stylesheet" href="assets/css/form/form-area.css" />
+    <link rel="stylesheet" href="assets/css/form/form-input.css" />
+    <link rel="stylesheet" href="assets/css/form/form-label.css" />
+    <link rel="stylesheet" href="assets/css/form/form-button.css" />
 
     <title>Edson Lima - Portfólio</title>
   </head>
@@ -114,7 +127,7 @@
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a class="menu__link" href="#about">Sobre mim</a>
+                <a class="menu__link" href="#about">Sobre</a>
               </li>
               <li class="menu__item">
                 <a class="menu__link" href="#skills">Skills</a>
@@ -137,6 +150,13 @@
         <!-- FIM MENU -->
         <section class="hero" id="hero">
           <div class="hero__letf">
+            <img
+              class="hero__img"
+              src="assets/img/edsonlima-hero.png"
+              alt="foto edson lima"
+            />
+          </div>
+          <div class="hero__right">
             <h1 class="hero__title">Olá, sou Edson Lima, desenvolvedor web.</h1>
             <p class="hero__text">
               Estou focado nos estudos com em HTML, CSS e Java Script para
@@ -146,27 +166,37 @@
 
             <ul class="social">
               <li class="social__item">
-                <a class="social__link" href="https://github.com/EdsonLLima">
+                <span class="social__arrow"> </span>
+                <a
+                  class="social__link"
+                  href="https://github.com/EdsonLLima"
+                  target="_blank"
+                >
                   GitHub
                 </a>
-                <span class="social__arrow"> </span>
               </li>
               <li class="social__item">
+                <span class="social__arrow"> </span>
                 <a
                   class="social__link"
                   href="https://www.linkedin.com/in/edsonllima/"
+                  target="_blank"
                 >
                   LinkedIn
                 </a>
-                <span class="social__arrow"> </span>
               </li>
               <li class="social__item">
-                <a class="social__link" href="https://twitter.com/EdLima2016">
+                <span class="social__arrow"> </span>
+                <a
+                  class="social__link"
+                  href="https://twitter.com/EdLima2016"
+                  target="_blank"
+                >
                   Twitter
                 </a>
-                <span class="social__arrow"> </span>
               </li>
               <li class="social__item">
+                <span class="social__arrow"> </span>
                 <a
                   class="social__link"
                   href="/edson_lima_curriculo.pdf"
@@ -174,16 +204,8 @@
                 >
                   Currículo
                 </a>
-                <span class="social__arrow"> </span>
               </li>
             </ul>
-          </div>
-          <div class="hero__right">
-            <img
-              class="hero__img"
-              src="assets/img/edsonlima-hero.png"
-              alt="foto edson lima"
-            />
           </div>
         </section>
       </div>
@@ -447,7 +469,7 @@
         </div>
       </section>
       <section id="projects" class="my-projects">
-        <div class="my-projects__contet">
+        <div class="my-projects__content">
           <h2 class="my-projects__title">Meus projetos</h2>
           <ul class="project__list">
             <li class="project__item project__item-card">
@@ -513,21 +535,61 @@
         </div>
       </section>
       <section id="contact" class="contact">
-        <h2>Contato</h2>
-        <p>
-          Quer entrar em contato comigo? Preencha o formulário ao lado e
-          entrarei em contato o mais rápido possível.
-        </p>
+        <div class="contact-content">
+          <img
+            class="contact__image"
+            src="assets/img/contato.jpg"
+            alt="mão com a palma aberta para cima com um celular parecendo esta flutuando"
+          />
 
-        <form action="">
-          <label>Nome</label>
-          <input type="text" />
-          <label>E-mail</label>
-          <input type="email" />
-          <label>Assunto</label>
-          <input type="text" />
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-        </form>
+          <div class="contact__form">
+            <h2 class="contact__title">Contato</h2>
+            <span class="alert-msg">Formulário apenas para simulação</span>
+            <p class="contact__text">
+              Quer entrar em contato comigo? Preencha o formulário ao lado e
+              entrarei em contato o mais rápido possível.
+            </p>
+
+            <p class="contact__text contact__text-mobile">
+              Quer entrar em contato comigo? Preencha o formulário a baixo e
+              entrarei em contato o mais rápido possível.
+            </p>
+
+            <form class="form" action="" name="form">
+              <!-- <label for="name" class="form__label">Nome</label> -->
+              <input
+                name="name"
+                class="form__input"
+                type="text"
+                placeholder="Nome"
+              />
+              <!-- <label for="email" class="form__label" >E-mail</label> -->
+              <input
+                name="email"
+                class="form__input"
+                type="email"
+                placeholder="E-mail"
+              />
+              <input
+                name="msg"
+                class="form__input"
+                type="text"
+                placeholder="Assunto"
+              />
+              <textarea
+                class="form__area"
+                name="msg"
+                id="msg"
+                cols="30"
+                rows="10"
+                placeholder="Mensagem"
+              ></textarea>
+              <button class="btn btn__success form__button" type="submit">
+                Enviar mensagem
+              </button>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
     <footer class="footer">

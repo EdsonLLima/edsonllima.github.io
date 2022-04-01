@@ -23,3 +23,14 @@
   font-size: 1.6rem;
   font-weight: 700;
 }
+
+@media (max-width:560px) {
+  .hobbie__item {
+    /* propriedade shorthand para ajustar quantidade de elementos em linha */
+    flex: 1 1 30%;  }
+}
+@media (max-width:360px) {
+  .hobbie__item {
+    /* propriedade shorthand para ajustar quantidade de elementos em linha */
+    flex: 1 1 50%;  }
+}

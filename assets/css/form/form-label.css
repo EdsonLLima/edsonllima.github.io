@@ -1,0 +1,15 @@
+.form__label {
+  display: block;
+  color: #a2a2a2;
+  background: #ffffff;
+  border: none;
+  border-radius: 0.4em 0.4em 0 0;
+  font-size: 1.2em;
+  padding: 0.8em;
+}
+
+.form__area-label {
+  font-size: 2rem;
+  padding: 1em 0.8em;
+  border-radius: 0.4em;
+}

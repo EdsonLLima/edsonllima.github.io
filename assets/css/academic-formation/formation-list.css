@@ -5,3 +5,8 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width:560px) {
+  .formation__list {
+    flex-direction: column;        
+}}
