@@ -1,14 +1,5 @@
 # Challenge Oracle One - FrontEnd Portfólio
 
-<p align="center">
-	<img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/EdsonLLima/ChallengeOnePortfolio" />
-	<img alt="Github License" src="https://img.shields.io/github/license/EdsonLLima/ChallengeOnePortfolio" />
-	<img alt="Github License" src="https://img.shields.io/github/license/EdsonLLima/
-	<img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/EdsonLLima/ChallengeOnePortfolio" />
-</P>
-
-## Objetivo: Construir um site de portfolio para apresentar os projetos desenvolvidos
-
 ### Link das Demos:
 
 - [Codificador de Textos ](https://edsonllima.github.io/projetos/codificador-one/)
