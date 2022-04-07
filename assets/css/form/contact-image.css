@@ -7,7 +7,7 @@
   border-radius: 0.4em;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 970px) {
   .contact__image {
     display: none;
   }

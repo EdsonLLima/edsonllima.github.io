@@ -555,36 +555,78 @@
               entrarei em contato o mais rápido possível.
             </p>
 
-            <form class="form" action="" name="form">
-              <!-- <label for="name" class="form__label">Nome</label> -->
-              <input
-                name="name"
-                class="form__input"
-                type="text"
-                placeholder="Nome"
-              />
-              <!-- <label for="email" class="form__label" >E-mail</label> -->
-              <input
-                name="email"
-                class="form__input"
-                type="email"
-                placeholder="E-mail"
-              />
-              <input
-                name="msg"
-                class="form__input"
-                type="text"
-                placeholder="Assunto"
-              />
-              <textarea
-                class="form__area"
-                name="msg"
-                id="msg"
-                cols="30"
-                rows="10"
-                placeholder="Mensagem"
-              ></textarea>
-              <button class="btn btn__success form__button" type="submit">
+            <form class="form" action="form_enviado.html" name="form">
+              <div class="input-container">
+                <!-- <label for="name" class="form__label">Nome</label> -->
+                <span class="input-mensagem-erro"
+                  >Este campo não está válido.</span
+                >
+                <input
+                  name="name"
+                  id="inputName"
+                  class="form__input input"
+                  type="text"
+                  placeholder="Nome"
+                  minlength="5"
+                  maxlength="50"
+                  data-tipo="name"
+                  required
+                />
+              </div>
+
+              <div class="input-container">
+                <!-- <label for="email" class="form__label" >E-mail</label> -->
+                <span class="input-mensagem-erro"
+                  >Este campo não está válido.</span
+                >
+                <input
+                  name="email"
+                  id="inputEmail"
+                  class="form__input input"
+                  type="email"
+                  placeholder="E-mail"
+                  data-tipo="email"
+                  required
+                />
+              </div>
+
+              <div class="input-container">
+                <span class="input-mensagem-erro"
+                  >Este campo não está válido.</span
+                >
+                <input
+                  name="msg"
+                  id="inputSubject"
+                  class="form__input input"
+                  type="text"
+                  placeholder="Assunto"
+                  maxlength="50"
+                  data-tipo="subject"
+                  required
+                />
+              </div>
+
+              <div class="input-container">
+                <span class="input-mensagem-erro"
+                  >Este campo não está válido.</span
+                >
+                <textarea
+                  class="form__area"
+                  name="msg"
+                  id="inputMsg"
+                  cols="30"
+                  rows="10"
+                  placeholder="Mensagem"
+                  required
+                  maxlength="300"
+                ></textarea>
+              </div>
+
+              <button
+                class="btn btn__success form__button"
+                type="submit"
+                id="btnEnviar"
+              >
                 Enviar mensagem
               </button>
             </form>
@@ -606,5 +648,6 @@
         <p class="footer__text">Projeto ONE Oracle + Alura - 2021/2022</p>
       </div>
     </footer>
+    <script src="/assets/js/validation.js"></script>
   </body>
 </html>

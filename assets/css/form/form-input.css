@@ -15,3 +15,30 @@
   border-radius: 0.4em;
   padding: 1.6em;
 } */
+
+/* Error Menssage */
+.input-container--invalido {
+  margin-bottom: .5em;
+  
+}
+
+.input-container--invalido .input {
+  border: 1px solid rgb(113, 11, 11);
+  /* border-radius: .7em; */
+}
+
+/* .input-container--invalido .input-label {
+  color: rgb(138, 7, 7);
+} */
+
+.input-mensagem-erro {
+  display: none;
+}
+
+.input-container--invalido .input-mensagem-erro {
+  color: rgb(138, 7, 7);
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}

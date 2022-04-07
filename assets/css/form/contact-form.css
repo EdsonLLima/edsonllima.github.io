@@ -9,6 +9,13 @@
   box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
+@media (max-width: 1160px) {
+  .contact__form {
+    /* margin: 4em 0.2em; */
+    padding: 2em;
+  }
+}
+
 @media (max-width: 768px) {
   .contact__form {
     margin: 4em 0.2em;
